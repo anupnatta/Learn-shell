@@ -1,7 +1,7 @@
 ## declare a function
 
 abc() {
-  Hello Anup
+  echo Hello Anup
 }
 
 ## Call a function
