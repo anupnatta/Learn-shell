@@ -5,7 +5,7 @@ abc() {
   echo First Argument $1
   echo Second Argument $2
   echo All Arguments $@
-  Number of Arguments $##
+  echo Number of Arguments $##
 }
 
 ## Call a function
