@@ -21,10 +21,12 @@ esac
 
 ## Same in if commands
 
-if [${Name} == Anup]; then
+if [${Name} == "Anup"]; then
   echo Habibi
   echo Welcome to Dubai
-elif [${Name} == DevOps]; then
+elif [${Name} == "DevOps"]; then
   echo DevOps Engineer
   echo 15000DHM
+else
+  echo Thank You
 fi
