@@ -18,3 +18,13 @@ case $Name in
     *)
     echo Thank you
 esac
+
+## Same in if commands
+
+if [${Name} == Anup]; then
+  echo Habibi
+  echo Welcome to Dubai
+elif [${Name} == DevOps]; then
+  echo DevOps Engineer
+  echo 15000DHM
+fi
